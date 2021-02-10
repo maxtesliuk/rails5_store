@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # VIEW HELPERS
 gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
 gem 'draper'
+gem 'rubocop'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -53,6 +54,7 @@ group :development do
 end
 
 group :test do
+  gem 'simplecov', '~> 0.17.1'
   gem 'rspec-rails'
 end
 
