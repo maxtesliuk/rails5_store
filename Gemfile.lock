@@ -52,6 +52,7 @@ GEM
     arel (8.0.0)
     ast (2.4.2)
     bindex (0.5.0)
+    brakeman (5.0.0)
     builder (3.2.3)
     byebug (9.0.6)
     claide (1.0.3)
@@ -274,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel-serializers-xml!
+  brakeman
   byebug
   coffee-rails (~> 4.2)
   danger

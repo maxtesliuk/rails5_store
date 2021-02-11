@@ -1,0 +1,21 @@
+{
+  "issues": [
+    {
+      "engineId": "brakeman",
+      "ruleId": "rule1",
+      "type": "VULNERABILITY",
+      "severity": "MAJOR",
+      "primaryLocation": {
+        "filePath": "brakeman.json",
+        "message": "Brakeman warnings",
+        "textRange": {
+          "startLine": 89,
+          "endLine": 135,
+          "startColumn": 3,
+          "endColumn": 3
+        }
+      }
+    }
+
+  ]
+}

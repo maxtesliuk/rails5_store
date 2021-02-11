@@ -1,0 +1,161 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/helpers/products_helper.rb": [
+        1,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/controllers/products_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/models/product.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/decorators/product_decorator.rb": [
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/decorators/product_decorator/pen_decorator.rb": [
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/decorators/application_decorator.rb": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/models/product/notebook.rb": [
+        0,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/models/product/pen.rb": [
+        0,
+        null,
+        0,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/maksym_tesliuk/test/sonar/rails5_store/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1612967738
+  }
+}
