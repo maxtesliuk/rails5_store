@@ -2,6 +2,6 @@
 class TestingPullRequestsController < ApplicationController
 
   def say_hi
-    puts 'hi'
+    render status: :ok
   end
 end
