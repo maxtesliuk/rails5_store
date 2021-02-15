@@ -1,21 +1,34 @@
 {
   "issues": [
     {
-      "engineId": "brakeman",
-      "ruleId": "rule1",
-      "type": "VULNERABILITY",
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
       "severity": "MAJOR",
+      "type": "VULNERABILITY",
       "primaryLocation": {
-        "filePath": "brakeman.json",
-        "message": "Brakeman warnings",
-        "textRange": {
-          "startLine": 89,
-          "endLine": 135,
-          "startColumn": 3,
-          "endColumn": 3
-        }
+        "message": "Cross-Site Request Forgery / Rails 5.1.2 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 5.2.4.3 or patch",
+        "filePath": "Gemfile.lock"
+      }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Cross-Site Scripting / loofah gem 2.0.3 is vulnerable (CVE-2018-8048). Upgrade to 2.2.1",
+        "filePath": "Gemfile.lock"
+      }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Cross-Site Scripting / rails-html-sanitizer 1.0.3 is vulnerable (CVE-2018-3741). Upgrade to rails-html-sanitizer 1.0.4",
+        "filePath": "Gemfile.lock"
       }
     }
-
   ]
 }
