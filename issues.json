@@ -29,6 +29,17 @@
         "message": "Cross-Site Scripting / rails-html-sanitizer 1.0.3 is vulnerable (CVE-2018-3741). Upgrade to rails-html-sanitizer 1.0.4",
         "filePath": "Gemfile.lock"
       }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Very important warning from Brakeman",
+        "filePath": "lib/some_lib_class.rb"
+      }
     }
+
   ]
 }

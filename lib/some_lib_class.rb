@@ -11,4 +11,8 @@ class SomeLibClass
   def new_code
     'new'
   end
+
+  def hello_from_too_long_method_name
+    return "hello there"
+  end
 end
