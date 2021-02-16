@@ -49,6 +49,26 @@
         "message": "Another vulnerability from BRAKEMAN",
         "filePath": "lib/some_lib_class.rb"
       }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Fake vulnerability in brakeman report",
+        "filePath": "lib/some_lib_class.rb"
+      }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Another fake vulnerability in brakeman report",
+        "filePath": "lib/some_lib_class.rb"
+      }
     }
   ]
 }
