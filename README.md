@@ -1,5 +1,7 @@
 # README
 
+[![Quality gate](http://localhost:9000/api/project_badges/quality_gate?project=rails-demo)](http://localhost:9000/dashboard?id=rails-demo)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
