@@ -39,7 +39,16 @@
         "message": "Very important warning from Brakeman",
         "filePath": "lib/some_lib_class.rb"
       }
+    },
+    {
+      "engineId": "BRAKEMAN",
+      "ruleId": "test",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "Another vulnerability from BRAKEMAN",
+        "filePath": "lib/some_lib_class.rb"
+      }
     }
-
   ]
 }
