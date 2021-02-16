@@ -57,7 +57,10 @@
       "type": "VULNERABILITY",
       "primaryLocation": {
         "message": "Fake vulnerability in brakeman report",
-        "filePath": "lib/some_lib_class.rb"
+        "filePath": "lib/some_lib_class.rb",
+        "textRange": {
+          "startLine": 15
+        }
       }
     },
     {
@@ -67,7 +70,11 @@
       "type": "VULNERABILITY",
       "primaryLocation": {
         "message": "Another fake vulnerability in brakeman report",
-        "filePath": "lib/some_lib_class.rb"
+        "filePath": "lib/some_lib_class.rb",
+        "textRange": {
+          "startLine": 25
+        }
+
       }
     }
   ]
